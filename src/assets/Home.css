@@ -1,0 +1,55 @@
+.home-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 70px;
+    background-color: #FDFDFD;
+  }
+  
+  .content {
+    max-width: 700px;
+    padding: 70px;
+  }
+  
+  .content h5 {
+    font-size: 18px;
+    color: gray;
+    margin: 0;
+    letter-spacing: 2px;
+  }
+  
+  .content h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  .content p {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+    margin: 20px 0;
+  }
+  
+  .resume-button {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .resume-button:hover {
+    background-color: #333;
+  }
+  
+  .image-container img {
+    width: 500px;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  
